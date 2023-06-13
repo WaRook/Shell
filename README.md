@@ -1,5 +1,32 @@
-# 앤서블로 쿠버네티스 환경 구축 자동화
-> 앤서블을 활용하여 쿠버네티스 클러스터를 구축하고 환경설정을 마쳐보자
+# Shell?
+> 사용자 명령어 해석기
+> 사용자가 프롬프트에 입력한 명령을 해석해서 운영체제에게 전달
+
+# Shell 종류
+> Bourne shell 
+> - AT&T 벨 연구소의 스티븐 본이 개발한 Original Shell
+
+> C Shell 
+> - C언어의 기술을 넣어서 만든 Shell, C언어의 문법을 적용 history, aliases,job control, vicommand editing and completion 기능을 포함 
+
+> Korn shell 
+> - David Korn이 AT&T에서 기존 bourne shell에 C shell의 기능을 포함시켜 생성
+
+> Bourne-again shell(bash) 
+> - GNU Project로 만들어졌고, csh,ksh이 가진 기능을 포함하면서 bourne shell과 호환성을 많이 높이 shell로 리눅스, MAC OS의 기본 shell 윈도우에서도 사용가능
+
+# 기본 shell 구성하기
+> 사용 가능한 Shell 리스트 확인하기
+> - $ cat /etc/shells
+  
+> 현재 작업 Shell 확인
+> - $ echo $SHELL
+  
+> 로그인 Shell변경
+> - $ cat /etc/passwd
+> - $ chsh
+
+
 
 ![](../header.png)
 
